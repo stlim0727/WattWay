@@ -12,9 +12,10 @@
 
 ## 설계 문서
 
-전체 아키텍처는 [`docs/architecture/README.md`](docs/architecture/README.md)를 참고.
-주요 결정은 [`docs/architecture/decisions/`](docs/architecture/decisions/)의 ADR로 기록한다.
+- 기술 타당성 검증: [`docs/feasibility.md`](docs/feasibility.md) — 경로 API·충전소 데이터 실재 확인
+- 전체 아키텍처: [`docs/architecture/README.md`](docs/architecture/README.md)
+- 주요 결정(ADR): [`docs/architecture/decisions/`](docs/architecture/decisions/)
 
 ## 상태
 
-🚧 설계 단계 (구현 전). 다음 작업: 데이터 모델/DB 스키마 → API 설계 → 경로 알고리즘 상세.
+🚧 설계 단계 (구현 전). feasibility 통과. 다음 작업: 데이터 모델/DB 스키마 → API 설계 → 경로 알고리즘 상세.
