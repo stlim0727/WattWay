@@ -1,0 +1,21 @@
+# WattWay ⚡️
+
+전기차(EV) 운전자를 위한 **충전 경로 플래너**. 출발지 → 목적지 경로에 배터리 잔량과
+주행거리를 고려한 **최적의 충전 정차 지점**을 자동으로 삽입한다. 웹·모바일을 모두 지원한다.
+
+## 핵심 기능
+
+- 차량 프로필(배터리 용량·커넥터·전비) 기반 개인화
+- 충전소 검색/상세 (커넥터·출력·요금·실시간 가용성)
+- **잔량 기반 경로 계획 + 충전 정차 최적화** (핵심)
+- 경로/충전소 즐겨찾기
+
+## 설계 문서
+
+- 기술 타당성 검증: [`docs/feasibility.md`](docs/feasibility.md) — 경로 API·충전소 데이터 실재 확인
+- 전체 아키텍처: [`docs/architecture/README.md`](docs/architecture/README.md)
+- 주요 결정(ADR): [`docs/architecture/decisions/`](docs/architecture/decisions/)
+
+## 상태
+
+🚧 설계 단계 (구현 전). feasibility 통과. 다음 작업: 데이터 모델/DB 스키마 → API 설계 → 경로 알고리즘 상세.
